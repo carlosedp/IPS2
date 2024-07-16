@@ -9827,7 +9827,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle"
-			(at 0 5 270)
+			(at 0 5 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3d918e9a-f6e1-4192-a0af-e5cf600bac8b")
@@ -17202,10 +17202,32 @@
 			)
 		)
 	)
+	(gr_text "Shut -"
+		(at 66.62 121 0)
+		(layer "F.SilkS")
+		(uuid "ab617c3e-2095-4f78-830d-fda7e540d0c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(gr_text "+12V"
 		(at 63.54 71.85 0)
 		(layer "F.SilkS")
 		(uuid "c08abcf8-fa9c-44f0-96a5-fbcaf22e4026")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "Shut +"
+		(at 66.645 34.85 0)
+		(layer "F.SilkS")
+		(uuid "d188ff03-8d53-4f93-b34a-3db6c431b1b5")
 		(effects
 			(font
 				(size 1 1)
